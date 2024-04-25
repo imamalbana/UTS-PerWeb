@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <title>Imam | Portfolio</title>
+  </head>
+  <body>
+  <div class="Hero">
+      <!-- --------------- HEADER --------------- -->
+      <nav id="header">
+        <div class="navlogo">
+          <p class="navnama">Imam</p>
+          <span>.</span>
+        </div>
+        <div class="navbox" id="navnav">
+          <ul>
+            <li>
+              <a href="#home" class="link active aktif">Home</a>
+            </li>
+            <li>
+              <a href="#about" class="link aktif">About</a>
+            </li>
+            <li>
+              <a href="#projects" class="link aktif">Projects</a>
+            </li>
+            <li>
+              <a href="#contact" class="link aktif">Contact</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="hamburgermenu" id="navtoggle">
+            <i class="bi bi-list"></i>        
+        </div>
+      </nav>
+
+      <!-- Main Section -->
+      <main class="wrapper">
+        <section class="box-utama" id="home">
+          <div class="textone">
+            <div class="textone-card">
+              <span>Hello, my name is</span>
+            </div>
+            <div class="textnama" data-aos="fade-right" data-aos-delay="300">
+              <span class="typedText"></span></p>
+            </div>
+            <div class="textone-info" data-aos="fade-right" data-aos-delay="500">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus inventore asperiores nihil eum molestias animi aperiam dolore maiores voluptatem veniam.</p>
+            </div>
+            <div class="textone-btn ">
+              <a href="#contact" class="btn btn-contact" data-aos="fade-up" data-aos-delay="700">Contact Me<a/>
+            </div>
+          </div>
+          <div class="profil-image" data-aos="fade-right" data-aos-delay="200">
+            <div class="image">
+              <img src="assets/images/avatar-removebg-preview.png" alt=""/>
+            </div>
+          </div>
+          </div>
+        </section>
+
+      <!-- About Section -->
+
+        <section class="section" id="about">
+           <div class="toptittle" data-aos="fade-down">
+            <h1>About Me</h1>
+            <p class="othertext" data-aos="fade-down" data-aos-delay="200">There are some things money can’t buy. For everything else, there’s My services</p>
+          </div>
+          <div class="row about-container">
+            <div class="col aboutme" data-aos="fade-right" data-aos-delay="100">
+              <div class="about-image">
+                <img src="assets/images/a84254ab421e96643fd62557d9cbff76.jpg" alt="">
+                
+              </div>
+            </div>
+            <div class="col aboutinfo" data-aos="fade-left" data-aos-delay="200">
+              <div class="aboutnav">
+              <ul>
+                <li><label onclick="ShowAboutText()" class="active aktif">About</label></li>
+                <li><label onclick="ShowAboutSkill()" class="aktif">Skills</label></li>
+                
+              </ul>
+            </div>
+            
+                  <div class="abouttext" id="abouttext">
+                  <p data-aos="fade-right" data-aos-delay="200">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui culpa quod quidem eos dolorum voluptatum, laboriosam incidunt velit alias voluptas. Praesentium quidem aperiam ad ipsa dignissimos suscipit quis, excepturi voluptatibus.</p>
+                  <br>
+                  <p data-aos="fade-right" data-aos-delay="200">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem iusto esse aliquid perferendis praesentium explicabo. Ab voluptatibus culpa architecto ad.</p>  
+                  <br>
+                  <p  data-aos="fade-right" data-aos-delay="200">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, optio voluptatem! Tempora magni, rerum totam, dolores id, soluta animi veniam dolorum perferendis repellat similique distinctio.</p>  
+                </div>
+            <div class="aboutskill" id="aboutskill">
+              <div class="box">
+                <div class="row">
+                  <div class="col-md-4" style="width: 100%;">
+                    <h3 class="progressbar-title">HTML</h3>
+                      <div class="progress">
+                          <div class="progress-bar" style="width: 50%; background: #92c26a;">
+                              <span class="progress-value">60%</span>
+                              <span class="progress-icon" style="border-bottom-color: #92c26a;"></span>
+                          </div>
+                      </div>
+                        <h3 class="progressbar-title">Css</h3>
+                      <div class="progress">
+                          <div class="progress-bar" style="width: 65%; background:rgb(207, 36, 36)">
+                              <span class="progress-value">65%</span>
+                              <span class="progress-icon" style="border-bottom-color:rgb(207, 36, 36)"></span>
+                          </div>
+                      </div>
+                        <h3 class="progressbar-title">java script</h3>
+                      <div class="progress">
+                          <div class="progress-bar" style="width: 65%; background: #f0ad4e;">
+                              <span class="progress-value">45%</span>
+                              <span class="progress-icon" style="border-bottom-color: #f0ad4e;"></span>
+                          </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+              <br>
+                    <p class="othertext">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum obcaecati molestiae dolores vitae, eius pariatur aliquid voluptates omnis fugiat officia.</p>
+              </div>
+            </div>
+          </div>
+          </section>
+
+      <!-- Project Section -->
+        <section class="section" id="projects">
+          <div class="toptittle" data-aos="fade-down">
+            <h1>Our Latest Projects</h1>
+            <p class="othertext" data-aos="fade-down" data-aos-delay="200">There are some things money can’t buy. For everything else, there’s My services</p>
+          </div>
+          <div class="project-nav" data-aos="fade-down" data-aos-delay="300">
+              <ul>
+                <li><a onclick="ShowAll()" class="active aktif">ALL</a></li>
+                <li><a onclick="ShowImageWebsite()" class="aktif">Website</a></li>
+                <li><a onclick="ShowImagePhotography()" class="aktif">Photography</a></li>
+                <li><a onclick="ShowImageDesign()" class="aktif">design</a></li>
+              </ul>
+            </div>
+          <section id="all-image">
+              <div class="project-container">
+                <div class="project-box">
+                  <img src="assets/images/beautiful-beach-using-young-happy.jpg" alt="" data-aos="fade-down" data-aos-delay="100"/>
+                </div>
+                <div class="project-box">
+                  <img src="assets/images/side-view-man-sitting-stairs.jpg" alt="" data-aos="fade-down" data-aos-delay="100"/>
+                </div>
+                <div class="project-box">
+                  <img src="assets/images/grayscale-shot-people-riding-bicycles-bridge.jpg" alt="" data-aos="fade-down" data-aos-delay="100"/>
+                </div>
+                <div class="project-box">
+                  <img src="assets/images/PARADIZE AWAITZ (◡‿◡✿).jpeg" alt="" data-aos="fade-down" data-aos-delay="100"/>
+                </div>
+                <div class="project-box">
+                <img src="assets/images/des1.png" alt="" data-aos="fade-down" data-aos-delay="100"/>
+                </div>
+                <div class="project-box">
+                  <img src="assets/images/des2.jpg" alt="" data-aos="fade-down" data-aos-delay="100"/>
+                </div>
+                <div class="project-box"">
+                  <img src="assets/images/des3.jpg" alt="" data-aos="fade-down" data-aos-delay="100"/>
+                </div>
+                <div class="project-box">
+                  <img src="assets/images/original-44b92f6ec8efb43e3ed97d4b15b49821.png" alt="" data-aos="fade-down" data-aos-delay="100"/>
+                </div>
+                <div class="project-box">
+                  <img src="assets/images/web1.png" alt="" data-aos="fade-down" data-aos-delay="100"/>
+                </div>
+                <div class="project-box">
+                  <img src="assets/images/Web Design.jpg" alt="" data-aos="fade-down" data-aos-delay="100"/>
+                </div>
+                
+              </div>
+            </section>
+         
+         
+            <section id="image-website">
+              <div class="project-container">
+                <div class="project-box">
+                  <img src="assets/images/Web Design 2.jpg" alt="" />
+                </div>
+                <div class="project-box">
+                  <img src="assets/images/Web Design 2.jpg" alt="" />
+                </div>
+               <div class="project-box">
+                  <img src="assets/images/Web Design.jpg" alt="" data-aos="fade-down" data-aos-delay="100"/>
+                </div>
+              </div>
+            </section>
+          <section id="image-photography">
+              <div class="project-container">
+                <div class="project-box">
+                  <img src="assets/images/beautiful-beach-using-young-happy.jpg" alt="" />
+                </div>
+                <div class="project-box">
+                  <img src="assets/images/side-view-man-sitting-stairs.jpg" alt="" />
+                </div>
+                <div class="project-box">
+                  <img src="assets/images/grayscale-shot-people-riding-bicycles-bridge.jpg" alt="" />
+                </div>
+                <div class="project-box">
+                  <img src="assets/images/PARADIZE AWAITZ (◡‿◡✿).jpeg" alt="" />
+                </div>
+              </div>
+            </section>
+            
+            <section id="image-design">
+              <div class="project-container">
+                <div class="project-box">
+                <img src="assets/images/des1.png" alt="">
+                </div>
+                <div class="project-box">
+                  <img src="assets/images/des2.jpg" alt="" />
+                  
+                </div>
+                <div class="project-box">
+                  <img src="assets/images/des3.jpg" alt="" />
+                  
+                </div>
+
+              </div>
+            </section>
+        </section>
+
+        <!-- Contact Section -->
+
+        <section class="contact" id="contact">
+          <div class="toptittle" data-aos="fade-down">
+                    <h1>Get In Touch</h1>
+                    <p class="othertext" data-aos="fade-down" data-aos-delay="200">There are some things money can’t buy. For everything else, there’s My services</p>
+                  </div>
+          <form class="contact-form row">
+              <div class="form-field col-lg-5" data-aos="fade-right">
+                <input id="name" class="input-text js-input" type="text" required>
+                <label class="label" for="name">Name</label>
+              </div>
+              <div class="form-field col-lg-6" data-aos="fade-left">
+                <input id="email" class="input-text js-input" type="email" required>
+                <label class="label" for="email">E-mail</label>
+              </div>
+              
+              <div class="form-field col-lg-5" data-aos="fade-right">
+                <input id="phone" class="input-text js-input" type="text" required>
+                <label class="label" for="phone">Contact Number</label>
+              </div>
+              <div class="form-field col-lg-12" data-aos="fade-right">
+                <input id="message" class="input-text js-input" type="text" required>
+                <label class="label" for="message">Message</label>
+              </div>
+              <div class="form-field col-lg-12" data-aos="fade-right">
+                <input class="submit-btn" type="submit" value="Submit">
+              </div>
+          </form>
+        </section>
+      </main>
+
+      <!-- --------------- FOOTER --------------- -->
+      <footer>
+        <div class="top-footer">
+          <h2>Imam | Albana.</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, odio?</p>
+          
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet itaque ab, similique laborum natus officia eos odio veniam molestiae sint?</p>
+        </div>
+        
+        <div class="footer-social-icons">
+          <div class="icon">
+            <a href=""><i class="bi bi-whatsapp"></i></a>
+          </div>
+          <div class="icon">
+            <a href=""><i class="bi bi-whatsapp"></i></a>
+          </div>
+          <div class="icon">
+            <a href=""><i class="bi bi-github"></i></a>
+          </div>
+          <div class="icon">
+            <a href=""><i class="bi bi-github"></i></a>
+          </div>
+        </div>
+        <div class="middle-footer">
+          <ul class="footer-menu">
+            <li class="footer_menu_list">
+              <a href="#home">Home</a>
+            </li>
+            <li class="footer_menu_list">
+              <a href="#about">About</a>
+            </li>
+            <li class="footer_menu_list">
+              <a href="#projects">Projects</a>
+            </li>
+            <li class="footer_menu_list">
+              <a href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+        <div class="bottom-footer">
+       <span>&copy;Copyright. Imam Albana 2024</span>
+        </div>
+      </footer>
+    
+
+    <!-- JavaScript -->
+    
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    
+    <!-- Typed JS -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    
+    <!-- Main JS -->
+    <script src="assets/js/main.js"></script>
+    
+    <!-- Bootstrap JS -->
+  </body>
+</html>
